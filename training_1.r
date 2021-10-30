@@ -1,10 +1,8 @@
 # create a folder somewhere in your folder
 # start RStudio and go to Session >
-# download this file and add it into your working folder
-# https://www.dropbox.com/s/z4fvl66ocfqp3f2/P11_models_representatives_Oct2021.csv?dl=0
 
 # read the models file
-models<-read.csv("P11_models_representatives_Oct2021.csv")
+models<-read.csv("Tr_data.csv")
 models$X<- NULL
 
 # how many models are there?
